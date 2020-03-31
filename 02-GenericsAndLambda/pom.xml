@@ -4,12 +4,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.devxschool</groupId>
+    <parent>
+        <groupId>com.devxschool</groupId>
+        <artifactId>AdvJavaClass</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
     <artifactId>02-GenericsAndLambda</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <properties>
-        <kotlin.version>1.3.71</kotlin.version>
+        <kotlin.version>1.3.61</kotlin.version>
     </properties>
 
 
